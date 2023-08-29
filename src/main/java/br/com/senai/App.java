@@ -37,7 +37,7 @@ public class App
         e1.dataInicio = LocalDate.of(2022, 10, 01);
         e1.datafim = LocalDate.of(2023, 06, 10);
 
-
+        
         Escolaridade e2 = new Escolaridade();
         e2.nomeCurso = "Engenharia Civil";
         e2.nomeInstituicao = "IFPI - Inst. Federal do Piaui";
