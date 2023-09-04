@@ -46,11 +46,7 @@ public class App
 
         ryan.escolaridades = Arrays.asList(e1,e2);
 
-        System.out.println("Nome Completo "+ryan.nomeCompleto);
-        System.out.println("Idade: "+ Period.between(ryan.dataNascimento,
-        LocalDate.now()).getYears());
-        System.out.println("Endereço:"+ ryan.endereco.logradouro);
-
+        
         for (Escolaridade escolaridades:ryan.escolaridades) {
             System.out.println(escolaridades.nomeCurso+" - "+escolaridades.nomeInstituicao);
         }
